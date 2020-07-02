@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb {
 .slider__block {
 	height: 100vh;
 	width: 100%;
-	background: #555556 url(../image/photo.jpg) no-repeat center;
+	background: #555556 url(../image/photo.webp) no-repeat center;
 
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
 .slider__block1 {
 	height: 100vh;
 	width: 100%;
-	background: #555556 url(../image/photo1.jpg) no-repeat center;
+	background: #555556 url(../image/photo1.webp) no-repeat center;
 
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 .slider__block2 {
 	height: 100vh;
 	width: 100%;
-	background: #555556 url(../image/photo2.jpg) no-repeat center;
+	background: #555556 url(../image/photo2.webp) no-repeat center;
 
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb {
 .slider__block3 {
 	height: 100vh;
 	width: 100%;
-	background: #555556 url(../image/photo3.jpg) no-repeat center;
+	background: #555556 url(../image/photo3.webp) no-repeat center;
 
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -1024,7 +1024,7 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 	height: 750px;
 
-	background: url("../image/video.jpg") no-repeat center center;
+	background: url("../image/video.webp") no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 

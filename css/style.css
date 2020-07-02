@@ -857,6 +857,10 @@ body::-webkit-scrollbar-thumb {
 	margin-left: 0;
 }
 
+.projects__item:nth-child(4) {
+	margin-left: 0;
+}
+
 .first {
 	margin-bottom: 30px;
 }
@@ -2035,6 +2039,18 @@ body::-webkit-scrollbar-thumb {
 	.projects__item {
 		width: 48%;
 	}
+	
+	.projects__item:nth-child(3) {
+		margin-left: 0;
+	}
+
+	.projects__item:nth-child(4) {
+		margin-left: 15px;
+	}
+
+	.projects__item:nth-child(5) {
+		margin-left: 0;
+	}
 
 	/*footer*/
 	.footer {
@@ -2456,6 +2472,10 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 520px) {
 	.projects__item {
 		width: 100%;
+	}
+	
+	.projects__item:nth-child(4) {
+		margin-left: 0;
 	}
 }
 

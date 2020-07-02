@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
 .slider__block4 {
 	height: 100vh;
 	width: 100%;
-	background: #555556 url(../image/photo4.jpg) no-repeat center;
+	background: #555556 url(../image/photo4.webp) no-repeat center;
 
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -1528,7 +1528,7 @@ body::-webkit-scrollbar-thumb {
 .brands {
 	width: 100%;
 	height: auto;
-	background: url(../image/brands/brands.jpg) center center no-repeat;
+	background: url(../image/brands/brands.webp) center center no-repeat;
 	-webkit-background-size: cover;
 		background-size: cover;	
 }

@@ -1,3 +1,40 @@
+projectsFilter('all')
+function projectsFilter(c) {
+	var x, i;
+	x = document.getElementsByClassName("projects__item");
+	/* Add the "show" class (display:block) to the filtered 
+	 elements, and remove the "show" class 
+	 from the elements that are not selected */
+	if (c == "all") c = "";
+	for (i = 0; i < x.length; i++) {
+		projectsRemove(x[i], "showFilter");
+		if (x[i].className.indexOf(c) > -1) projectsAdd(x[i], "showFilter");
+	}
+}
+
+// Show filtered elements
+function projectsAdd(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+		element.className += " " + arr2[i];
+	}
+}
+
+// Hide elements that are not selected
+function projectsRemove(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+		while (arr1.indexOf(arr2[i]) > -1) {
+			arr1.splice(arr1.indexOf(arr2[i]), 1);
+		}
+	}
+	element.className = arr1.join(" ");
+}
+
 $(function() {
 
 	let burger = $("#burger");

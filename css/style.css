@@ -853,6 +853,10 @@ body::-webkit-scrollbar-thumb {
 	flex-direction: column;
 }
 
+.hide {
+	display: none;
+}
+
 .projects__item:first-child {
 	margin-left: 0;
 }

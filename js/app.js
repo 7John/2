@@ -35,10 +35,10 @@
 // 	element.className = arr1.join(" ");
 // }
 
-const filterBox = document.querySelectorAll('.item');
+const filterBox = document.querySelectorAll('.projects__item');
 
-document.querySelector('.nav').addEventListener('click', event => {
-	if (event.target.tagName !== 'LI') return false;
+document.querySelector('.projects__buttons').addEventListener('click', event => {
+	if (event.target.tagName !== 'BUTTON') return false;
 
 	let filterClass = event.target.dataset['f'];
 	
